@@ -12,6 +12,7 @@ body, a:link, a:visited, a:active{
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
+
 }
 .topbar{
   height:32px;
@@ -21,7 +22,13 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
+  border:10px solid;
   border-radius:10px;
   position:absolute;
+}
+.dancer.pole {
+  color: pink;
+}
+.dancer.break {
+  color: yellow;
 }
